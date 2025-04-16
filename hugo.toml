@@ -1,4 +1,4 @@
 baseURL = 'https://CyberWizardLabs.com/'
 languageCode = 'en-us'
 title = 'Cyber Wizard Labs'
-theme = 'poison'
+theme = 'beautifulhugo'
