@@ -56,13 +56,13 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true #eeds to be explicitly set
+    title: Cyber Wizard Lab
+    subtitle: "Crafting labs and magic"
+    imageUrl: "https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Wizardy
     buttons:
       - name: Posts
         url: posts
