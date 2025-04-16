@@ -1,0 +1,62 @@
+.magic-orb {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #a2f3ff, #5271ff);
+  box-shadow:
+    0 0 15px rgba(162, 243, 255, 0.5),
+    0 0 30px rgba(162, 243, 255, 0.3),
+    0 0 60px rgba(82, 113, 255, 0.4),
+    0 0 100px rgba(82, 113, 255, 0.2);
+  animation: float 4s ease-in-out infinite, pulseGlow 2s ease-in-out infinite;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 15px rgba(162, 243, 255, 0.5),
+      0 0 30px rgba(162, 243, 255, 0.3),
+      0 0 60px rgba(82, 113, 255, 0.4),
+      0 0 100px rgba(82, 113, 255, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 25px rgba(162, 243, 255, 0.7),
+      0 0 50px rgba(162, 243, 255, 0.5),
+      0 0 80px rgba(82, 113, 255, 0.6),
+      0 0 120px rgba(82, 113, 255, 0.3);
+  }
+}
+.magic-orb:hover {
+  animation: float 4s ease-in-out infinite, pulseGlowHover 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseGlowHover {
+  0%, 100% {
+    box-shadow:
+      0 0 25px rgba(162, 243, 255, 0.8),
+      0 0 50px rgba(162, 243, 255, 0.5),
+      0 0 80px rgba(82, 113, 255, 0.6),
+      0 0 120px rgba(82, 113, 255, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 40px rgba(162, 243, 255, 1),
+      0 0 70px rgba(162, 243, 255, 0.6),
+      0 0 100px rgba(82, 113, 255, 0.7),
+      0 0 150px rgba(82, 113, 255, 0.5);
+  }
+}
