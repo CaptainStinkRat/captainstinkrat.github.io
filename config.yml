@@ -16,7 +16,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Cyber Wizard Labs
   description: "A place for magic, computers, and coding"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio]
   author: Isaac
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -43,11 +43,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://cdn-icons-png.flaticon.com/512/1669/1669438.png"
+    favicon16x16: "https://cdn-icons-png.flaticon.com/512/1669/1669438.png"
+    favicon32x32: "https://cdn-icons-png.flaticon.com/512/1669/1669438.png"
+    apple_touch_icon: "https://cdn-icons-png.flaticon.com/512/1669/1669438.png"
+    safari_pinned_tab: "https://cdn-icons-png.flaticon.com/512/1669/1669438.png"
 
   label:
     text: "Home"
