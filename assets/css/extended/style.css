@@ -60,48 +60,6 @@
       0 0 150px rgba(82, 113, 255, 0.5);
   }
 }
-body {
-  margin: 0;
-  padding: 0;
-  background: radial-gradient(ellipse at bottom, #0b001a 0%, #000 100%);
-  overflow: hidden;
-  height: 100vh;
-  color: white;
-  font-family: 'Cinzel', serif; /* adds a magical fantasy font if you include it */
-}
-
-.stars {
-  width: 2px;
-  height: 2px;
-  background: white;
-  box-shadow:
-    50px 80px white,
-    130px 40px white,
-    190px 150px white,
-    230px 120px white,
-    320px 190px white,
-    400px 100px white,
-    500px 50px white,
-    600px 180px white,
-    720px 90px white;
-  animation: twinkle 4s infinite ease-in-out;
-}
-
-@keyframes twinkle {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
-
-.moon {
-  position: absolute;
-  top: 80px;
-  right: 100px;
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle at center, #ccc, #999);
-  border-radius: 50%;
-  box-shadow: 0 0 30px rgba(200, 200, 255, 0.6);
-}
 
 body {
   margin: 0;
@@ -168,4 +126,7 @@ body {
     transform: translateY(100vh);
     opacity: 0;
   }
+}
+.chroma {
+  background-color: unset;
 }
