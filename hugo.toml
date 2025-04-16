@@ -1,0 +1,4 @@
+baseURL = 'https://CyberWizardLabs.com/'
+languageCode = 'en-us'
+title = 'CyberWizardLabs'
+theme = 'poison'
