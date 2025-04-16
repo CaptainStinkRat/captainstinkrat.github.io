@@ -121,3 +121,36 @@
     opacity: 0;
   }
 }
+.orb {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #a0f0ff, #2c2c4a);
+  box-shadow: 0 0 30px #5df, 0 0 60px #2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+  animation: float 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.orb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px #9cf, 0 0 80px #5df;
+}
+
+.orb-text {
+  font-family: 'Cinzel', serif;
+  color: #ffffff;
+  text-shadow: 0 0 10px #5df, 0 0 20px #2ff;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
