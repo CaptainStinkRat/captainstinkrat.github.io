@@ -5,4 +5,4 @@ title = 'Cyber Wizard Labs'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-theme = 'hugo-Papermod'
+theme = 'hugo-papermod'
