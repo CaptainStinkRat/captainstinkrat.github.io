@@ -142,6 +142,21 @@ body {
   animation-duration: 6s;
   animation-delay: 2s;
 }
+.falling-star:nth-child(4) {
+  left: 65%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+.falling-star:nth-child(5) {
+  left: 80%;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+.falling-star:nth-child(6) {
+  left: 100%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
 /* Add more stars with unique delays/durations */
 
 @keyframes fall {
