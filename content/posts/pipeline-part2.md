@@ -11,8 +11,8 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "My first post"
-canonicalURL: "https://cyberwizardlabs.com/posts/first-post"
+description: "Pipeline Part 2"
+canonicalURL: "https://cyberwizardlabs.com/posts/pipeline-part2"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
