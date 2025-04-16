@@ -1,9 +1,9 @@
 ---
-title: "My 1st post"
+title: "My first post"
 date: 2025-04-15T11:30:03+00:00
 weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["intro" , "posts"]
 author: "Isaac"
 # author: ["Me", "You"] # multiple authors
 showToc: true
