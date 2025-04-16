@@ -64,7 +64,6 @@
 body {
   margin: 0;
   background: radial-gradient(ellipse at bottom, #0b001a 0%, #000 100%);
-  overflow: hidden;
   height: 100vh;
 }
 
