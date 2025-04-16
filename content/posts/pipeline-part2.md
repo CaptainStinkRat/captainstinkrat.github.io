@@ -1,7 +1,7 @@
 ---
-title: "My first post"
+title: "Pipeline Part 2"
 date: 2025-04-16T11:15:03+00:00
-weight: 1
+#weight: 1
 # aliases: ["/first"]
 tags: ["HomeLab"]
 author: "Isaac"
