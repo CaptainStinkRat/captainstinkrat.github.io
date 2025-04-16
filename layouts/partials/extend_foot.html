@@ -1,0 +1,18 @@
+<div class="eye">
+    <div class="pupil"></div>
+  </div>
+  <script>
+    const eye = document.querySelector('.eye');
+    const pupil = document.querySelector('.pupil');
+
+document.addEventListener('mousemove', (e) => {
+  const eyeRect = eye.getBoundingClientRect();
+  const eyeCenterX = eyeRect.left + eyeRect.width / 2;
+  const eyeCenterY = eyeRect.top + eyeRect.height / 2;
+
+  const angleX = (e.clientX - eyeCenterX) / 20;
+  const angleY = (e.clientY - eyeCenterY) / 20;
+
+  pupil.style.transform = `translate(${angleX}px, ${angleY}px)`;
+});
+  </script>
