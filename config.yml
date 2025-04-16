@@ -1,7 +1,7 @@
 baseURL: "https://Cyberwizardlabs.com/"
 title: Cyber Wizard Labs
 paginate: 5
-theme: PaperMod
+theme: hugo-papermod
 
 enableRobotsTXT: true
 buildDrafts: false
