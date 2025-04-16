@@ -1,7 +1,7 @@
 baseURL = 'https://CyberWizardLabs.com/'
 languageCode = 'en-us'
 title = 'Cyber Wizard Labs'
-theme = 'hugo-Papermod'
+theme = 'hugo-PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
