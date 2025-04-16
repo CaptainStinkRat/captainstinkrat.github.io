@@ -2,7 +2,7 @@
 title: "Pipeline Part 1"
 date: 2025-04-16T09:45:03+00:00
 # weight: 1
-# aliases: ["/first"]
+aliases: ["/posts"]
 tags: ["HomeLab"]
 author: "Isaac"
 # author: ["Me", "You"] # multiple authors
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Part 1 of my pipeline seris"
+description: "Part 1 of my pipeline series"
 canonicalURL: "https://cyberwizardlabs.com/posts/pipeline-part1"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -68,7 +68,7 @@ Again not bad at all, next the command that's given is to validate the hash
 `````
 echo "0dbc9bf5a58620fc52cb6cc0448abcca964a8d74b5f39773b7afcad9ab691e19  actions-runner-linux-x64-2.323.0.tar.gz" | shasum -a 256 -c
 `````
-
+ 
 Last in this downloading series of commands, you want to extract the installer using
 `````
 tar xzf ./actions-runner-linux-x64-2.323.0.tar.gz
