@@ -123,10 +123,8 @@
 }
 
 
-.orb-text {
-  font-family: 'Cinzel', serif;
-  color: #ffffff;
-  text-shadow: 0 0 10px #5df, 0 0 20px #2ff;
-  font-size: 10px;
-  pointer-events: none;
+.quote {
+  font-size: 16px;
+  line-height: 1.4;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #2ff;
 }
