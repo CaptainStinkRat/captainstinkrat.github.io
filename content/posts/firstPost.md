@@ -2,7 +2,7 @@
 title: "Pipeline Part 1"
 date: 2025-04-16T09:45:03+00:00
 # weight: 1
-aliases: ["/posts"]
+#aliases: ["/posts"]
 tags: ["HomeLab"]
 author: "Isaac"
 # author: ["Me", "You"] # multiple authors
