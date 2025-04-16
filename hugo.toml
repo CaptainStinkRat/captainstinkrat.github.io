@@ -1,7 +1,8 @@
 baseURL = 'https://CyberWizardLabs.com/'
 languageCode = 'en-us'
 title = 'Cyber Wizard Labs'
-theme = 'beautifulhugo'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+theme = 'poison'
