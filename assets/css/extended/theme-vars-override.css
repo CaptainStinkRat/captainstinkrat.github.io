@@ -11,7 +11,7 @@
 }
 
 .dark {
-    --theme: #101c7a;
+    --theme: linear-gradient(to bottom, #090e38,#1d2fb6);
     --entry: #202062;
     --primary: rgba(235, 235, 255, 0.96);
     --secondary: rgba(235, 235, 255, 0.66);
