@@ -148,22 +148,20 @@
   border: 2px solid white; /* optional: border for style */
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* optional: subtle shadow */
 }
-.bmc-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #ffdd00;
-  color: #000;
-  font-size: 24px;
-  padding: 12px 16px;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+.kofi-button {
+  display: inline-block;
+  background-color: #29abe0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
   text-decoration: none;
-  z-index: 1000;
-  transition: transform 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.bmc-float:hover {
-  transform: scale(1.1);
-  background-color: #ffe866;
+.kofi-button:hover {
+  background-color: #57c3eb;
+  transform: scale(1.05);
 }
