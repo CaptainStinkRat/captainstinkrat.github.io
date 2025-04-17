@@ -206,3 +206,6 @@
   transform: scale(1.2);
   color: #29abe0;
 }
+body {
+  font-family: 'Victor Mono', monospace;
+}
