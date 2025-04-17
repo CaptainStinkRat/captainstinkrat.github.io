@@ -25,7 +25,7 @@
 
 <a href="https://ko-fi.com/cyberwizardlabs" target="_blank" class="kofi-float">☕</a>
 
-<div class="star-field">
+<!-- <div class="star-field">
     <div class="falling-star"></div>
     <div class="falling-star"></div>
     <div class="falling-star"></div>
@@ -41,8 +41,8 @@
     <div class="falling-star"></div>
     <div class="falling-star"></div>
     <div class="falling-star"></div>
-    <!-- Duplicate as many as you'd like -->
-  </div>
+    
+  </div> --> 
 
   <script>
     const profileImg = document.getElementById('profile-img');
@@ -60,3 +60,63 @@
       socialIcons.style.transform = `scale(${scale})`;
     });
   </script>
+
+<script>
+  const canvas = document.getElementById("snowCanvas");
+  const ctx = canvas.getContext("2d");
+  const snowPile = document.getElementById("snowPile");
+
+  let snowflakes = [];
+  let snowAccumulated = 0;
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener("resize", resizeCanvas);
+  resizeCanvas();
+
+  function createSnowflake() {
+    return {
+      x: Math.random() * canvas.width,
+      y: -10,
+      radius: Math.random() * 3 + 1,
+      speed: Math.random() * 2 + 1,
+      drift: Math.random() * 1 - 0.5,
+    };
+  }
+
+  function updateSnowflakes() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    snowflakes.forEach((flake, index) => {
+      flake.y += flake.speed;
+      flake.x += flake.drift;
+
+      ctx.beginPath();
+      ctx.arc(flake.x, flake.y, flake.radius, 0, Math.PI * 2);
+      ctx.fillStyle = "white";
+      ctx.fill();
+
+      if (flake.y > canvas.height - snowAccumulated - 5) {
+        snowflakes.splice(index, 1);
+        snowAccumulated += 0.1;
+        if (snowAccumulated < canvas.height / 3) {
+          snowPile.style.height = `${snowAccumulated}px`;
+        }
+      }
+    });
+
+    // Add more flakes
+    if (snowflakes.length < 150) {
+      snowflakes.push(createSnowflake());
+    }
+
+    requestAnimationFrame(updateSnowflakes);
+  }
+
+  updateSnowflakes();
+</script>
+<div class="snow-container">
+  <canvas id="snowCanvas"></canvas>
+  <div id="snowPile"></div>
+</div>
