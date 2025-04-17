@@ -171,9 +171,11 @@
 .profile-wrapper {
   position: fixed;
   top: 20px;
-  right: 8px;
+  right: 20px;
   z-index: 1000;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-img {
@@ -187,10 +189,10 @@
 }
 
 .social-icons {
-  margin-top: 8px;
+  margin-top: 10px;
   display: flex;
+  gap: 12px;
   justify-content: center;
-  gap: 10px;
   transition: transform 0.3s ease;
 }
 
