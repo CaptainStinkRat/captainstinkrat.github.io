@@ -9,7 +9,16 @@
 </script>
 <div class="profile-wrapper">
   <img src="https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg" alt="Profile Picture" class="profile-img" id="profile-img">
+  <div class="social-icons" id="social-icons">
+    <a href="https://twitter.com/cyberwizardlabs" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/captainstinkrat" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/yourhandle" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
 </div>
+
+<!-- Font Awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
 <a href="https://ko-fi.com/cyberwizardlabs" target="_blank" class="kofi-float">☕</a>
 
 <div class="star-field">
@@ -33,13 +42,17 @@
 
   <script>
     const profileImg = document.getElementById('profile-img');
+    const socialIcons = document.getElementById('social-icons');
   
     window.addEventListener('scroll', () => {
       const scrollY = window.scrollY;
   
-      // Shrink from 80px to 40px based on scroll depth (adjust as needed)
-      const newSize = Math.max(40, 80 - scrollY / 5); // tweak divisor for speed
+      // Calculate new size
+      const newSize = Math.max(40, 80 - scrollY / 5); // Adjust divisor for scroll sensitivity
+      const scale = newSize / 80;
+  
       profileImg.style.width = `${newSize}px`;
       profileImg.style.height = `${newSize}px`;
+      socialIcons.style.transform = `scale(${scale})`;
     });
   </script>
