@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: Victor Mono;
+    src: 'https://fonts.bunny.net/css?family=victor-mono:400,400i|press-start-2p:400'
+}
 :root {
     --theme: #fff;
     --entry: #cfcfff;
