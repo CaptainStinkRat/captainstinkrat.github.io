@@ -19,7 +19,7 @@ params:
   keywords: [Blog, Portfolio]
   author: Isaac
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -56,7 +56,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true #eeds to be explicitly set
+    enabled: false #eeds to be explicitly set
     title: Cyber Wizard Lab
     subtitle: "Crafting labs and magic"
     imageUrl: "https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg"
