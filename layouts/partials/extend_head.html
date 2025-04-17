@@ -7,8 +7,8 @@
 
   gtag('config', 'G-FG6B19DPJR');
 </script>
-<div class="profile-pic-container">
-  <img src="https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg" alt="Profile Picture" class="profile-pic">
+<div class="profile-wrapper">
+  <img src="https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg" alt="Profile Picture" class="profile-img" id="profile-img">
 </div>
 <a href="https://ko-fi.com/cyberwizardlabs" target="_blank" class="kofi-float">☕</a>
 
@@ -30,3 +30,16 @@
     <div class="falling-star"></div>
     <!-- Duplicate as many as you'd like -->
   </div>
+
+  <script>
+    const profileImg = document.getElementById('profile-img');
+  
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+  
+      // Shrink from 80px to 40px based on scroll depth (adjust as needed)
+      const newSize = Math.max(40, 80 - scrollY / 5); // tweak divisor for speed
+      profileImg.style.width = `${newSize}px`;
+      profileImg.style.height = `${newSize}px`;
+    });
+  </script>
