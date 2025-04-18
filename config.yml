@@ -75,13 +75,13 @@ params:
     Title: "Cyber Wizard Labs"
     Content: Where computers and magic meet
 
-  socialIcons:
-    - name: x
-      url: "https://x.com/cyberwizardlabs"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/30291503/cyber-wizard-labs"
-    - name: github
-      url: "https://github.com/captainstinkrat"
+  # socialIcons:
+  #   - name: x
+  #     url: "https://x.com/cyberwizardlabs"
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com/users/30291503/cyber-wizard-labs"
+  #   - name: github
+  #     url: "https://github.com/captainstinkrat"
 
   analytics:
     google:
