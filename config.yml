@@ -13,7 +13,7 @@ minify:
   minifyOutput: true
 
 params:
-  imageDir : []"static/images/"]
+  imageDir : ["static/images/"]
   custom_css : ["css/custom_fonts.css"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Cyber Wizard Labs
