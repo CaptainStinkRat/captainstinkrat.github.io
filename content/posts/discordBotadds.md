@@ -38,22 +38,19 @@ editPost:
 
 So I've been tinkering a bit with my Discord bot and recently got a request to add functionality to know how long someone has been in the Discord and associating it with a rank. Not too bad of an ask.
 
-I opened by Discord bot script I had been working on and got to work. The first thing I needed to add was a bot.command section to listen for a chat call out with the command_prefix.
-
-We set the command_prefix in the previous part so I won't rehash that but, to add that functionality, I just added
+I opened by Discord bot script I had been working on and got to work. The first thing I needed to add was a bot.event to listen for the set of words to trigger the action.
 
 ```
-@bot.command()
-async def joined(ctx):
+@bot.event
 ```
 
-Now that I had that started, I could add the parameters I needed for the script. I wanted to take multiple arguments for member name so I need to account for that as well as accounting for passing through the member name. I did that by adding
+
+Now that I had that started, I could add the parameters I needed for the script. I wanted to take an input from the user like "join time" so I started with
 
 ```
-async def joined(ctx,*,member: discord.Member)
+async def jon_message(message):
+if message.content.startswith('join time')
 ```
-
-Now the command could take multiple arguments, very nice. 
 
 I knew that there was going to be a time element to the script so I added **from datetime import datetime, timezone** to the top of the script. 
 
