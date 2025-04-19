@@ -1,6 +1,6 @@
 ---
 title: "Different Tome Provider Rehash featuring Tailscale"
-date: 2025-04-17T11:45:03+00:00
+date: 2025-04-18T18:45:03+00:00
 # weight: 1
 #aliases: ["/posts"]
 tags: ["HomeLab"]
