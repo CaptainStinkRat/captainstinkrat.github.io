@@ -69,3 +69,5 @@ I went ahead and took down the funnel because I would only really need that when
 As an aside, I've been loving *Silverbullet*. There are just so many features that it's capable of doing and I've barely scratched the surface.
 
 I've been theorycrafting about a way to get those pages out of Silverbullet and pushed to this blog and I think that might be a fun project to try.
+
+I'll for sure make a post if I find out a way to do that. 
