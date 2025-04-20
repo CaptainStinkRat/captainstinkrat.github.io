@@ -13,6 +13,7 @@ minify:
   minifyOutput: true
 
 params:
+  menu_align_right: false
   imageDir : ["static/images/"]
   custom_css : ["css/custom_fonts.css"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -65,11 +66,11 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: Wizardy
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   homeInfoParams:
