@@ -13,7 +13,9 @@ minify:
   minifyOutput: true
 
 params:
-  menu_align_right: false
+  homeInfoParams:
+    Title: Cyber Wizard Labs
+    Content: Just a Cyber Wizard making labs and magic.
   imageDir : ["static/images/"]
   custom_css : ["css/custom_fonts.css"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
