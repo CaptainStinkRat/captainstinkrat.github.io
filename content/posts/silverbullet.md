@@ -1,75 +1,39 @@
 ---
-
 title: "Silverbullet and Git"
-
-date: 2025-04-22T12:45:03+00:00
-
-\# weight: 1
-
-#aliases: \["/posts"\]
-
-tags: \["Coding"\]
-
+date: 2025-04-22T20:30:03+00:00
+#weight: 1
+# aliases: ["/first"]
+tags: ["HomeLab"]
 author: "Isaac"
-
-\# author: \["Me", "You"\] # multiple authors
-
+# author: ["Me", "You"] # multiple authors
 showToc: true
-
 TocOpen: false
-
 draft: false
-
 hidemeta: false
-
 comments: false
-
 description: "Silverbullet and Git"
-
 canonicalURL: "https://cyberwizardlabs.com/posts/silverbullet"
-
-disableHLJS: true \# to disable highlightjs
-
+disableHLJS: true # to disable highlightjs
 disableShare: false
-
 disableHLJS: false
-
 hideSummary: false
-
 searchHidden: true
-
 ShowReadingTime: true
-
 ShowBreadCrumbs: true
-
 ShowPostNavLinks: true
-
 ShowWordCount: true
-
 ShowRssButtonInSectionTermList: true
-
 UseHugoToc: true
-
 cover:
-
-image: "<image path/url>" \# image path/url
-
-alt: "<alt text>" \# alt text
-
-caption: "<text>" \# display caption under cover
-
-relative: false \# when using page bundles set this to true
-
-hidden: true \# only hide on current single page
-
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 editPost:
-
-URL: "https://github.com/captainstinkrat/captainstinkrat.github.io/content"
-
-Text: "Suggest Changes" \# edit text
-
-appendFilePath: true \# to append file path to Edit link
-
+    URL: "https://github.com/captainstinkrat/captainstinkrat.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 In a previous post, I talked a bit about a note-taking application called *Silverbullet*. Like I mentioned in that post, I have playing with it a bit and have found some use cases for it that I wanted to share.
