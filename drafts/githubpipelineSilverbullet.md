@@ -1,6 +1,6 @@
 ---
 title: "Silverbullet Push"
-date: 2025-04-22T20:30:03+00:00
+date: 2025-04-24T16:30:03+00:00
 #weight: 1
 # aliases: ["/first"]
 tags: ["HomeLab", "coding"]
