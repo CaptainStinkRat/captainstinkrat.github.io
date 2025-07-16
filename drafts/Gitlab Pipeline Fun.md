@@ -12,8 +12,6 @@ For a bit of background, I have to have reports made for work and one of those i
 
 *In steps Gitlab pipelines*. To start my report building process I needed to make an API call to the vulnerability manager we use.
 
-This is a change to test.
-
 I started with a Python script to do just that. I won't post the whole code but, essentially I could do an API call and parse that out to make a report for me.
 
 ```
