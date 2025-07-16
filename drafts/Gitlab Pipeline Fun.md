@@ -1,3 +1,41 @@
+---
+title: "Git Pipeline Fun"
+date: 2025-07-16T10:45:03+00:00
+# weight: 1
+#aliases: ["/posts"]
+tags: ["Coding"]
+author: "Isaac"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Git Pipelines"
+canonicalURL: "https://cyberwizardlabs.com/posts/gitpipelinefun"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/captainstinkrat/captainstinkrat.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+
 Hey guys,
 
 It's been a while since my last post and there are several things to blame for that but, to keep it short, life has a way of ebbing and flowing with business.
