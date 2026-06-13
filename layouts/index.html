@@ -6,15 +6,29 @@
 
   {{- with site.Params.homeInfoParams }}
   <article class="first-entry home-info">
-    <header class="entry-header">
-      <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-      {{ .Content | markdownify }}
+    <div class="home-info-flex">
+      <div class="profile-bubble">
+        <div class="profile-bubble-img">
+          <img src="/images/corner-img.png" alt="Profile">
+        </div>
+        <div class="profile-bubble-social">
+          <a href="https://github.com/captainstinkrat" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://infosec.exchange/@cyberwizardlabs" target="_blank" rel="noopener" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+          <a href="https://twitter.com/cyberwizardlabs" target="_blank" rel="noopener" title="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="home-info-text">
+        <header class="entry-header">
+          <h1>{{ .Title | markdownify }}</h1>
+        </header>
+        <div class="entry-content">
+          {{ .Content | markdownify }}
+        </div>
+        <footer class="entry-footer">
+          {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        </footer>
+      </div>
     </div>
-    <footer class="entry-footer">
-      {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
   </article>
   {{- end }}
 

@@ -327,6 +327,20 @@ section:nth-child(4) { animation-delay: 0.3s; }
   font-size: 10px;
 }
 
+.home-info-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+@media (max-width: 680px) {
+  .home-info-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .profile-bubble {
   display: flex;
   flex-direction: column;
@@ -336,7 +350,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
   border-radius: 16px;
   padding: 16px 16px 10px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  margin-bottom: var(--gap);
+  flex-shrink: 0;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
