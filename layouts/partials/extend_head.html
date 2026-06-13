@@ -1,10 +1,8 @@
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FG6B19DPJR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-FG6B19DPJR');
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap" rel="stylesheet">
@@ -12,51 +10,10 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
 <div class="profile-wrapper">
-  <img src="https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg" alt="Profile Picture" class="profile-img" id="profile-img">
-  <div class="social-icons" id="social-icons">
-    <a href="https://twitter.com/cyberwizardlabs" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://github.com/captainstinkrat" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://infosec.exchange/@cyberwizardlabs" target="_blank" class="mastodon"><i class="fab fa-mastodon"></i></a>
+  <img src="https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg" alt="Profile" class="profile-img">
+  <div class="social-icons">
+    <a href="https://github.com/captainstinkrat" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://infosec.exchange/@cyberwizardlabs" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+    <a href="https://twitter.com/cyberwizardlabs" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a>
   </div>
 </div>
-
-<!-- Font Awesome for icons -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-<a href="https://ko-fi.com/cyberwizardlabs" target="_blank" class="kofi-float">☕</a>
-
-<div class="star-field">
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    <div class="falling-star"></div>
-    
-  </div> 
-
-  <script>
-    const profileImg = document.getElementById('profile-img');
-    const socialIcons = document.getElementById('social-icons');
-  
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
-  
-      // Calculate new size
-      const newSize = Math.max(40, 80 - scrollY / 5); // Adjust divisor for scroll sensitivity
-      const scale = newSize / 80;
-  
-      profileImg.style.width = `${newSize}px`;
-      profileImg.style.height = `${newSize}px`;
-      socialIcons.style.transform = `scale(${scale})`;
-    });
-  </script>
