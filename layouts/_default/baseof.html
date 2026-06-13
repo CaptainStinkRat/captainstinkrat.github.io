@@ -1,0 +1,37 @@
+{{- if lt hugo.Version "0.125.7" }}
+{{- errorf "=> hugo v0.125.7 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+    <main class="main">
+        <div class="profile-bubble">
+          <div class="profile-bubble-img">
+            <img src="/images/corner-img.png" alt="Profile">
+          </div>
+          <div class="profile-bubble-social">
+            <a href="https://github.com/captainstinkrat" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://infosec.exchange/@cyberwizardlabs" target="_blank" rel="noopener" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+            <a href="https://twitter.com/cyberwizardlabs" target="_blank" rel="noopener" title="X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>
