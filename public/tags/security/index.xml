@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on Cyber Wizard Labs</title>
+    <link>https://Cyberwizardlabs.com/tags/security/</link>
+    <description>Recent content in Security on Cyber Wizard Labs</description>
+    <image>
+      <title>Cyber Wizard Labs</title>
+      <url>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</url>
+      <link>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Cyberwizardlabs.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RepoPull</title>
+      <link>https://Cyberwizardlabs.com/projects/repopull/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/projects/repopull/</guid>
+      <description>Automated library scanning and dependency pull tool</description>
+    </item>
+  </channel>
+</rss>

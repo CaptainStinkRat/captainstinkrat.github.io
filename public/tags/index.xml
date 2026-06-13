@@ -1,11 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags on Cyber Wizard Labs</title>
+    <link>https://Cyberwizardlabs.com/tags/</link>
+    <description>Recent content in Tags on Cyber Wizard Labs</description>
+    <image>
+      <title>Cyber Wizard Labs</title>
+      <url>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</url>
+      <link>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Jul 2025 10:45:03 +0000</lastBuildDate>
+    <atom:link href="https://Cyberwizardlabs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://Cyberwizardlabs.com/tags/coding/</link>
+      <pubDate>Fri, 18 Jul 2025 10:45:03 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://Cyberwizardlabs.com/tags/api/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://Cyberwizardlabs.com/tags/go/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST</title>
+      <link>https://Cyberwizardlabs.com/tags/rest/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/rest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HomeLab</title>
+      <link>https://Cyberwizardlabs.com/tags/homelab/</link>
+      <pubDate>Thu, 24 Apr 2025 16:30:03 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>https://Cyberwizardlabs.com/tags/ci/cd/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://Cyberwizardlabs.com/tags/devops/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://Cyberwizardlabs.com/tags/github-actions/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://Cyberwizardlabs.com/tags/raspberry-pi/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://Cyberwizardlabs.com/tags/intro/</link>
+      <pubDate>Tue, 15 Apr 2025 11:30:03 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bot</title>
+      <link>https://Cyberwizardlabs.com/tags/bot/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/bot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Discord</title>
+      <link>https://Cyberwizardlabs.com/tags/discord/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/discord/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://Cyberwizardlabs.com/tags/python/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://Cyberwizardlabs.com/tags/security/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/tags/security/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

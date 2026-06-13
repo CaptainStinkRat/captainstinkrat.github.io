@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Cyber Wizard Labs</title>
+    <link>https://Cyberwizardlabs.com/tags/go/</link>
+    <description>Recent content in Go on Cyber Wizard Labs</description>
+    <image>
+      <title>Cyber Wizard Labs</title>
+      <url>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</url>
+      <link>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Cyberwizardlabs.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go REST API</title>
+      <link>https://Cyberwizardlabs.com/projects/go-rest-api/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyberwizardlabs.com/projects/go-rest-api/</guid>
+      <description>Building a RESTful API in Go with proper project structure</description>
+    </item>
+  </channel>
+</rss>

@@ -209,3 +209,237 @@
 body {
   font-family: 'Victor Mono', monospace;
 }
+
+.section-title {
+  font-size: 1.5em;
+  margin: 2em 0 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.view-all {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.view-all:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25em;
+  background: var(--entry);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5em;
+}
+
+.project-card-header h2,
+.project-card-header h3 {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+.project-card-header h2 a,
+.project-card-header h3 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.project-card-header h2 a:hover,
+.project-card-header h3 a:hover {
+  text-decoration: underline;
+}
+
+.project-language {
+  font-size: 0.75em;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  background: var(--tertiary);
+  color: var(--secondary);
+  white-space: nowrap;
+}
+
+.project-description {
+  color: var(--content);
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 0.5em 0;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 0.75em 0;
+  font-size: 0.85em;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.project-status {
+  font-size: 0.8em;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.status-active {
+  background: #27ae6020;
+  color: #27ae60;
+}
+
+.status-archived {
+  background: #e67e2220;
+  color: #e67e22;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.5em;
+}
+
+.project-tag {
+  font-size: 0.75em;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  background: var(--tertiary);
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.project-tag:hover {
+  color: var(--primary);
+  background: var(--border);
+}
+
+.project-single-meta {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 0.75em;
+  flex-wrap: wrap;
+}
+
+.git-activity {
+  margin: 2em 0;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75em;
+  padding: 0.75em 1em;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+}
+
+.activity-icon {
+  font-size: 1.2em;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.activity-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  min-width: 0;
+}
+
+.activity-repo {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.activity-repo:hover {
+  text-decoration: underline;
+}
+
+.activity-desc {
+  color: var(--content);
+  font-size: 0.85em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.activity-date {
+  color: var(--secondary);
+  font-size: 0.75em;
+}
+
+.activity-loading,
+.activity-empty,
+.activity-error {
+  color: var(--secondary);
+  font-size: 0.9em;
+  padding: 1em;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+}
+
+.activity-error a {
+  color: var(--primary);
+}
+
+@media (max-width: 680px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

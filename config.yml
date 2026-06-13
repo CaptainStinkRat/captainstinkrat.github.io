@@ -118,6 +118,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 5
     - identifier: Posts
       name: Posts
       url: /posts/
