@@ -47,7 +47,19 @@ h1, h2, h3, h4, .section-title, .entry-header h1 {
 }
 
 .dark {
-  background: linear-gradient(180deg, #0d0a1a 0%, #120d25 40%, #1a1035 100%);
+  background-color: #1a1a1e;
+  background-image:
+    radial-gradient(ellipse 2px 3px at 10% 20%, rgba(120,120,130,0.08) 0%, transparent 100%),
+    radial-gradient(ellipse 2px 2px at 30% 60%, rgba(120,120,130,0.06) 0%, transparent 100%),
+    radial-gradient(ellipse 1px 2px at 50% 15%, rgba(120,120,130,0.1) 0%, transparent 100%),
+    radial-gradient(ellipse 3px 2px at 70% 45%, rgba(120,120,130,0.07) 0%, transparent 100%),
+    radial-gradient(ellipse 2px 2px at 85% 75%, rgba(120,120,130,0.08) 0%, transparent 100%),
+    radial-gradient(ellipse 1px 1px at 20% 85%, rgba(120,120,130,0.1) 0%, transparent 100%),
+    radial-gradient(ellipse 2px 3px at 60% 90%, rgba(120,120,130,0.06) 0%, transparent 100%),
+    radial-gradient(ellipse 3px 2px at 40% 35%, rgba(120,120,130,0.07) 0%, transparent 100%),
+    linear-gradient(135deg, #1a1a1e 0%, #1f1f24 25%, #1c1c21 50%, #22222a 75%, #1e1e23 100%),
+    repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(80,80,90,0.04) 60px, rgba(80,80,90,0.04) 61px),
+    repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(80,80,90,0.04) 60px, rgba(80,80,90,0.04) 61px);
   background-attachment: fixed;
 }
 
@@ -409,96 +421,211 @@ h1, h2, h3, h4, .section-title, .entry-header h1 {
 
 .tome-corner {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 24px;
+  right: 24px;
   z-index: 999;
   pointer-events: none;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 2px;
+  gap: 8px;
 }
 
 .tome {
-  width: 48px;
-  height: 60px;
   position: relative;
   transform-origin: bottom right;
-  animation: tomeIdle 4s ease-in-out infinite;
+  animation: tomeIdle 5s ease-in-out infinite;
 }
 
 .tome:first-child {
   animation-delay: 0s;
+  z-index: 2;
 }
 
 .tome:last-child {
-  animation-delay: 2s;
-  transform: rotate(4deg);
+  animation-delay: 2.5s;
+  transform: rotate(5deg);
+  z-index: 1;
+  margin-top: -18px;
 }
 
-.tome-spine {
+.tome-cover {
+  position: relative;
+  width: 70px;
+  height: 90px;
+  border-radius: 0 6px 6px 0;
+  box-shadow:
+    3px 3px 12px rgba(0,0,0,0.5),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.tome.top .tome-cover {
+  background: linear-gradient(135deg, #3d1f2e 0%, #5a2d3e 40%, #4a2535 100%);
+  border: 1px solid #7a4a5a;
+  border-left: 3px solid #8a5a6a;
+}
+
+.tome.bottom .tome-cover {
+  background: linear-gradient(135deg, #1e3a2a 0%, #2a4a38 40%, #223d2e 100%);
+  border: 1px solid #3a6a50;
+  border-left: 3px solid #4a7a60;
+}
+
+.tome-pages {
   position: absolute;
-  inset: 0;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  right: -4px;
+  top: 2px;
+  bottom: 2px;
+  width: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #f5f0e0 0px,
+    #e8e0c8 1px,
+    #f0e8d0 2px,
+    #e0d8c0 3px
+  );
+  border-radius: 0 1px 1px 0;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.1);
 }
 
-.tome-spine.top {
-  background: linear-gradient(180deg, #6a3e8a, #8b5cf6);
-  border-left: 3px solid #c084fc;
+.tome-spine-band {
+  position: absolute;
+  left: -1px;
+  width: 5px;
+  height: 100%;
+  border-radius: 1px;
 }
 
-.tome-spine.bottom {
-  background: linear-gradient(180deg, #4a2d6e, #7c3aed);
-  border-left: 3px solid #a78bfa;
-  height: 50px;
+.tome.top .tome-spine-band {
+  background: repeating-linear-gradient(
+    0deg,
+    #6a3040 0px,
+    #6a3040 8px,
+    #7a3a4a 8px,
+    #7a3a4a 10px,
+    #6a3040 10px,
+    #6a3040 18px,
+    #8a4a5a 18px,
+    #8a4a5a 19px
+  );
+}
+
+.tome.bottom .tome-spine-band {
+  background: repeating-linear-gradient(
+    0deg,
+    #2a5a40 0px,
+    #2a5a40 8px,
+    #3a6a50 8px,
+    #3a6a50 10px,
+    #2a5a40 10px,
+    #2a5a40 18px,
+    #4a7a60 18px,
+    #4a7a60 19px
+  );
+}
+
+.tome-clasp {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 6px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.tome.top .tome-clasp {
+  background: linear-gradient(180deg, #c89f3c, #a07820);
+  border: 1px solid #d4a84a;
+  border-top: none;
+}
+
+.tome.bottom .tome-clasp {
+  background: linear-gradient(180deg, #b8922e, #8a6820);
+  border: 1px solid #c8a040;
+  border-top: none;
+}
+
+.tome-clasp-ring {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1.5px solid #c89f3c;
+  background: transparent;
+}
+
+.tome-clasp-ring.bottom {
+  border-color: #b8922e;
 }
 
 .tome-ribbon {
   position: absolute;
-  top: 6px;
+  top: 0;
   right: 8px;
-  width: 6px;
-  height: 18px;
-  background: #fbbf24;
-  border-radius: 1px;
-  box-shadow: 0 0 6px rgba(251, 191, 36, 0.4);
+  width: 5px;
+  height: 70px;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-.tome-ribbon.bottom {
-  top: 4px;
-  height: 14px;
-  background: #f59e0b;
-  box-shadow: 0 0 6px rgba(245, 158, 11, 0.4);
+.tome.top .tome-ribbon {
+  background: linear-gradient(180deg, #b82222, #8a1818);
+}
+
+.tome.bottom .tome-ribbon {
+  background: linear-gradient(180deg, #d4a84a, #a07820);
+}
+
+.tome-ribbon-end {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7px;
+  height: 7px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.tome.top .tome-ribbon-end {
+  background: #b82222;
+}
+
+.tome.bottom .tome-ribbon-end {
+  background: #d4a84a;
 }
 
 .tome-glow {
   position: absolute;
-  inset: -8px;
+  inset: -12px;
   border-radius: 50%;
-  filter: blur(12px);
-  opacity: 0.15;
-  animation: tomeGlow 3s ease-in-out infinite alternate;
+  filter: blur(16px);
+  opacity: 0.08;
+  animation: tomeGlow 4s ease-in-out infinite alternate;
 }
 
-.tome-glow.top {
-  background: radial-gradient(ellipse, #8b5cf6, transparent);
+.tome.top .tome-glow {
+  background: radial-gradient(ellipse, #c084fc, transparent 70%);
 }
 
-.tome-glow.bottom {
-  background: radial-gradient(ellipse, #a78bfa, transparent);
-  animation-delay: 1.5s;
+.tome.bottom .tome-glow {
+  background: radial-gradient(ellipse, #6ee7b7, transparent 70%);
+  animation-delay: 2s;
 }
 
 @keyframes tomeIdle {
   0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(1deg); }
-  75% { transform: rotate(-1deg); }
+  20% { transform: rotate(0.8deg); }
+  60% { transform: rotate(-0.5deg); }
 }
 
 @keyframes tomeGlow {
-  0% { opacity: 0.1; }
-  100% { opacity: 0.25; }
+  0% { opacity: 0.05; }
+  100% { opacity: 0.15; }
 }
 
 .wisp {
