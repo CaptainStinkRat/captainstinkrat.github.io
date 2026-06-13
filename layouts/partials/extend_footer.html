@@ -1,6 +1,31 @@
 <script>
 (function() {
   var wispColors = ['#c084fc', '#a78bfa', '#818cf8', '#fbbf24', '#f472b6', '#67e8f9'];
+
+  var scoreColors = {
+    0: '#161b22',
+    1: '#f9a8d4',
+    2: '#c084fc',
+    3: '#818cf8',
+    4: '#4f46e5',
+  };
+  var svgContainer = document.getElementById('contrib-svg');
+  if (svgContainer) {
+    var rects = svgContainer.querySelectorAll('rect');
+    for (var i = 0; i < rects.length; i++) {
+      var score = rects[i].getAttribute('data-score');
+      if (score !== null && scoreColors[score]) {
+        rects[i].setAttribute('fill', scoreColors[score]);
+        rects[i].setAttribute('style', 'fill:' + scoreColors[score] + ';shape-rendering:crispedges;');
+      }
+    }
+    var svg = svgContainer.querySelector('svg');
+    if (svg) {
+      svg.style.maxWidth = '100%';
+      svg.style.height = 'auto';
+      svg.style.borderRadius = '6px';
+    }
+  }
   var container = document.body;
   var activeWisps = 0;
   var maxWisps = 8;

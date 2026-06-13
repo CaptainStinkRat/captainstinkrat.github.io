@@ -83,7 +83,13 @@
       Contribution Graph
     </h2>
     <div id="contrib-heatmap">
-      <img src="https://ghchart.rshah.org/161b22/captainstinkrat" alt="GitHub contribution graph" style="max-width:100%;height:auto;border-radius:6px;">
+      {{ $chart := resources.GetRemote "https://ghchart.rshah.org/captainstinkrat" }}
+      {{ with $chart }}
+        {{ $svg := .Content }}
+        <div id="contrib-svg">{{ $svg | safeHTML }}</div>
+      {{ else }}
+        <img src="https://ghchart.rshah.org/161b22/captainstinkrat" alt="GitHub contribution graph" style="max-width:100%;height:auto;border-radius:6px;">
+      {{ end }}
     </div>
   </section>
 
