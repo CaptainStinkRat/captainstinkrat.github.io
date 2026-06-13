@@ -266,6 +266,34 @@ body {
   color: var(--primary);
 }
 
+.contrib-section {
+  margin: 2em 0;
+}
+
+#contrib-heatmap svg {
+  border-radius: 6px;
+}
+
+#contrib-heatmap svg text {
+  fill: var(--secondary);
+  font-size: 10px;
+}
+
+.corner-img-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.corner-img {
+  width: 64px;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.85;
+}
+
 @media (max-width: 680px) {
   .projects-grid {
     grid-template-columns: 1fr;
