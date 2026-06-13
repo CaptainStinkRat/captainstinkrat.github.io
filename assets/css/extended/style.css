@@ -38,6 +38,51 @@ body {
   font-family: 'Victor Mono', monospace;
 }
 
+.dark {
+  background-image:
+    linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@media (max-width: 680px) {
+  .dark {
+    background-size: 30px 30px;
+  }
+}
+
+.dark .profile-bubble {
+  border-color: var(--primary);
+  box-shadow:
+    0 0 20px rgba(0, 240, 255, 0.12),
+    0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dark .section-title {
+  border-bottom-color: var(--primary);
+  box-shadow: 0 1px 0 rgba(0, 240, 255, 0.25);
+}
+
+.dark .first-entry .entry-header h1 {
+  text-shadow: 0 0 24px rgba(0, 240, 255, 0.15);
+}
+
+.dark .view-all {
+  border-color: var(--primary);
+  box-shadow: 0 0 8px rgba(0, 240, 255, 0.15);
+}
+
+.dark .view-all:hover {
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.dark .project-card:hover {
+  border-color: var(--primary);
+  box-shadow:
+    0 0 16px rgba(0, 240, 255, 0.08),
+    0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
 .section-title {
   font-size: 1.5em;
   margin: 2em 0 1em;
