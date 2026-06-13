@@ -1,1 +1,74 @@
 <script src="/js/contrib-heatmap.js"></script>
+
+<div class="tome-corner" aria-hidden="true">
+  <div class="tome">
+    <div class="tome-glow top"></div>
+    <div class="tome-spine top">
+      <div class="tome-ribbon"></div>
+    </div>
+  </div>
+  <div class="tome">
+    <div class="tome-glow bottom"></div>
+    <div class="tome-spine bottom">
+      <div class="tome-ribbon bottom"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var wispColors = ['#c084fc', '#a78bfa', '#818cf8', '#fbbf24', '#f472b6', '#67e8f9'];
+  var container = document.body;
+  var activeWisps = 0;
+  var maxWisps = 8;
+
+  function spawnWisp() {
+    if (activeWisps >= maxWisps) return;
+    activeWisps++;
+
+    var wisp = document.createElement('div');
+    wisp.className = 'wisp';
+
+    var color = wispColors[Math.floor(Math.random() * wispColors.length)];
+    var startX = Math.random() * window.innerWidth;
+    var startY = window.innerHeight * 0.4 + Math.random() * window.innerHeight * 0.5;
+    var driftX = (Math.random() - 0.5) * 200;
+    var riseY = -(200 + Math.random() * 400);
+    var size = 3 + Math.random() * 5;
+    var duration = 4 + Math.random() * 4;
+
+    wisp.style.cssText = [
+      'left:' + startX + 'px',
+      'top:' + startY + 'px',
+      'width:' + size + 'px',
+      'height:' + size + 'px',
+      'background:' + color,
+      'box-shadow: 0 0 ' + (size * 3) + 'px ' + color,
+      '--drift-x:' + driftX + 'px',
+      '--rise-y:' + riseY + 'px',
+      'animation-duration:' + duration + 's'
+    ].join(';');
+
+    wisp.addEventListener('animationend', function() {
+      wisp.remove();
+      activeWisps--;
+    });
+
+    container.appendChild(wisp);
+  }
+
+  function scheduleNext() {
+    var delay = 2000 + Math.random() * 4000;
+    setTimeout(function() {
+      spawnWisp();
+      scheduleNext();
+    }, delay);
+  }
+
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches ||
+      document.documentElement.classList.contains('dark')) {
+    scheduleNext();
+    spawnWisp();
+  }
+})();
+</script>

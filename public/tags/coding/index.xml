@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Coding on Cyber Wizard Labs</title>
-    <link>http://localhost:1314/tags/coding/</link>
+    <link>https://Cyberwizardlabs.com/tags/coding/</link>
     <description>Recent content in Coding on Cyber Wizard Labs</description>
     <image>
       <title>Cyber Wizard Labs</title>
-      <url>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</url>
-      <link>https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg</link>
+      <url>https://Cyberwizardlabs.com/images/corner-img.png</url>
+      <link>https://Cyberwizardlabs.com/images/corner-img.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Jul 2025 10:45:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Cyberwizardlabs.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Restful API and Go Learning</title>
-      <link>http://localhost:1314/posts/restful-api-and-learning-go/</link>
+      <link>https://Cyberwizardlabs.com/posts/restful-api-and-learning-go/</link>
       <pubDate>Fri, 18 Jul 2025 10:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/restful-api-and-learning-go/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/restful-api-and-learning-go/</guid>
       <description>Restful API and Go Learning</description>
     </item>
     <item>
       <title>Git Pipeline Fun</title>
-      <link>http://localhost:1314/posts/gitlab-pipeline-fun/</link>
+      <link>https://Cyberwizardlabs.com/posts/gitlab-pipeline-fun/</link>
       <pubDate>Wed, 16 Jul 2025 10:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/gitlab-pipeline-fun/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/gitlab-pipeline-fun/</guid>
       <description>Git Pipelines</description>
     </item>
     <item>
       <title>Silverbullet Push</title>
-      <link>http://localhost:1314/posts/githubpipelinesilverbullet/</link>
+      <link>https://Cyberwizardlabs.com/posts/githubpipelinesilverbullet/</link>
       <pubDate>Thu, 24 Apr 2025 16:30:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/githubpipelinesilverbullet/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/githubpipelinesilverbullet/</guid>
       <description>Silverbullet and Pipelines</description>
     </item>
     <item>
       <title>Scraping the Web</title>
-      <link>http://localhost:1314/posts/scrapingtheweb/</link>
+      <link>https://Cyberwizardlabs.com/posts/scrapingtheweb/</link>
       <pubDate>Tue, 22 Apr 2025 09:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/scrapingtheweb/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/scrapingtheweb/</guid>
       <description>Web Scraper Build</description>
     </item>
     <item>
       <title>Member join on Discord</title>
-      <link>http://localhost:1314/posts/discordmemberjoin/</link>
+      <link>https://Cyberwizardlabs.com/posts/discordmemberjoin/</link>
       <pubDate>Sat, 19 Apr 2025 14:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/discordmemberjoin/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/discordmemberjoin/</guid>
       <description>Discord bot when a member joins</description>
     </item>
     <item>
       <title>Adding to the Discord bot</title>
-      <link>http://localhost:1314/posts/discordbotadds/</link>
+      <link>https://Cyberwizardlabs.com/posts/discordbotadds/</link>
       <pubDate>Sat, 19 Apr 2025 10:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/discordbotadds/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/discordbotadds/</guid>
       <description>Discord bot add</description>
     </item>
     <item>
       <title>Discord Bot</title>
-      <link>http://localhost:1314/posts/discordbot/</link>
+      <link>https://Cyberwizardlabs.com/posts/discordbot/</link>
       <pubDate>Fri, 18 Apr 2025 10:45:03 +0000</pubDate>
-      <guid>http://localhost:1314/posts/discordbot/</guid>
+      <guid>https://Cyberwizardlabs.com/posts/discordbot/</guid>
       <description>Building a Discord bot</description>
     </item>
   </channel>

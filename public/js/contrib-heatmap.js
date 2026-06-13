@@ -6,14 +6,49 @@
   var loading = document.getElementById('contrib-loading');
   var chartUrl = 'https://ghchart.rshah.org/' + username;
 
-  var img = new Image();
-  img.onload = function() {
-    if (loading) loading.style.display = 'none';
-    img.classList.add('contrib-img-loaded');
-    container.appendChild(img);
+  var darkColors = {
+    '#ebedf0': '#161b22',
+    '#9be9a8': '#0e4429',
+    '#40c463': '#006d32',
+    '#30a14e': '#26a641',
+    '#216e39': '#39d353',
+    '#eeeeee': '#161b22',
   };
-  img.onerror = function() {
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', chartUrl, true);
+  xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 300) {
+      if (loading) loading.style.display = 'none';
+      var wrapper = document.createElement('div');
+      wrapper.innerHTML = xhr.responseText;
+      var svg = wrapper.querySelector('svg');
+      if (svg) {
+        var rects = svg.querySelectorAll('rect');
+        for (var i = 0; i < rects.length; i++) {
+          var style = rects[i].getAttribute('style');
+          if (style) {
+            for (var light in darkColors) {
+              style = style.replace(light, darkColors[light]);
+            }
+            rects[i].setAttribute('style', style);
+          }
+          var fill = rects[i].getAttribute('fill');
+          if (fill && darkColors[fill]) {
+            rects[i].setAttribute('fill', darkColors[fill]);
+          }
+        }
+        svg.style.maxWidth = '100%';
+        svg.style.height = 'auto';
+        svg.style.borderRadius = '6px';
+        container.appendChild(svg);
+      }
+    } else {
+      if (loading) loading.textContent = 'Could not load contribution graph.';
+    }
+  };
+  xhr.onerror = function() {
     if (loading) loading.textContent = 'Could not load contribution graph.';
   };
-  img.src = chartUrl;
+  xhr.send();
 })();
