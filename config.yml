@@ -24,7 +24,7 @@ params:
   keywords: [Blog, Portfolio]
   author: Isaac
   # author: ["Me", "You"] # multiple authors
-  images: ["https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg"]
+  images: ["/images/corner-img.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -64,7 +64,7 @@ params:
     enabled: false #eeds to be explicitly set
     title: Cyber Wizard Lab
     subtitle: "Crafting labs and magic"
-    imageUrl: "https://m.media-amazon.com/images/I/71zXjjYOFsL._AC_UF894,1000_QL80_.jpg"
+    imageUrl: "/images/corner-img.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Wizardy
