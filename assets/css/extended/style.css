@@ -38,25 +38,6 @@ body {
   font-family: 'Victor Mono', monospace;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-section {
-  animation: fadeUp 0.5s ease-out both;
-}
-
-section:nth-child(2) { animation-delay: 0.1s; }
-section:nth-child(3) { animation-delay: 0.2s; }
-section:nth-child(4) { animation-delay: 0.3s; }
-
 .section-title {
   font-size: 1.5em;
   margin: 2em 0 1em;
@@ -64,18 +45,6 @@ section:nth-child(4) { animation-delay: 0.3s; }
   border-bottom: 2px solid var(--border);
   display: flex;
   align-items: center;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  section { animation: none; }
-  .profile-bubble { transition: none; }
-  .profile-bubble:hover { transform: none; }
-  .profile-bubble:hover .profile-bubble-img img { transform: none; }
-  .profile-bubble-img::after { display: none; }
-  .profile-bubble-social a { transition: none; }
-  .profile-bubble-social a:hover { transform: none; }
-  .project-card { transition: none; }
-  .project-card:hover { transform: none; }
 }
 
 .section-footer {
@@ -351,29 +320,6 @@ section:nth-child(4) { animation-delay: 0.3s; }
   padding: 16px 16px 10px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
   flex-shrink: 0;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.profile-bubble:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-}
-
-.profile-bubble-img {
-  position: relative;
-}
-
-.profile-bubble-img::after {
-  content: '';
-  position: absolute;
-  inset: -4px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  transition: border-color 0.3s ease;
-}
-
-.profile-bubble:hover .profile-bubble-img::after {
-  border-color: var(--primary);
 }
 
 .profile-bubble-img img {
@@ -383,11 +329,6 @@ section:nth-child(4) { animation-delay: 0.3s; }
   object-fit: cover;
   border: 2px solid var(--primary);
   display: block;
-  transition: transform 0.3s ease;
-}
-
-.profile-bubble:hover .profile-bubble-img img {
-  transform: scale(1.05);
 }
 
 .profile-bubble-social {
@@ -399,13 +340,10 @@ section:nth-child(4) { animation-delay: 0.3s; }
 .profile-bubble-social a {
   color: var(--secondary);
   font-size: 18px;
-  transition: color 0.2s, transform 0.2s ease;
-  display: inline-block;
 }
 
 .profile-bubble-social a:hover {
   color: var(--primary);
-  transform: scale(1.2);
 }
 
 @media (max-width: 680px) {

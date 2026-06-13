@@ -6,6 +6,15 @@
   var loading = document.getElementById('contrib-loading');
   var chartUrl = 'https://ghchart.rshah.org/' + username;
 
+  var darkColors = {
+    '#ebedf0': '#161b22',
+    '#9be9a8': '#0e4429',
+    '#40c463': '#006d32',
+    '#30a14e': '#26a641',
+    '#216e39': '#39d353',
+    '#eeeeee': '#161b22',
+  };
+
   var xhr = new XMLHttpRequest();
   xhr.open('GET', chartUrl, true);
   xhr.onload = function() {
@@ -15,6 +24,20 @@
       wrapper.innerHTML = xhr.responseText;
       var svg = wrapper.querySelector('svg');
       if (svg) {
+        var rects = svg.querySelectorAll('rect');
+        for (var i = 0; i < rects.length; i++) {
+          var style = rects[i].getAttribute('style');
+          if (style) {
+            for (var light in darkColors) {
+              style = style.replace(light, darkColors[light]);
+            }
+            rects[i].setAttribute('style', style);
+          }
+          var fill = rects[i].getAttribute('fill');
+          if (fill && darkColors[fill]) {
+            rects[i].setAttribute('fill', darkColors[fill]);
+          }
+        }
         svg.style.maxWidth = '100%';
         svg.style.height = 'auto';
         svg.style.borderRadius = '6px';
