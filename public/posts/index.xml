@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Cyber Wizard Labs</title>
-    <link>https://Cyberwizardlabs.com/posts/</link>
+    <link>http://localhost:1314/posts/</link>
     <description>Recent content in Posts on Cyber Wizard Labs</description>
     <image>
       <title>Cyber Wizard Labs</title>
@@ -12,131 +12,131 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Jul 2025 10:45:03 +0000</lastBuildDate>
-    <atom:link href="https://Cyberwizardlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first post</title>
-      <link>https://Cyberwizardlabs.com/posts/post/</link>
+      <link>http://localhost:1314/posts/post/</link>
       <pubDate>Tue, 15 Apr 2025 11:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/post/</guid>
+      <guid>http://localhost:1314/posts/post/</guid>
       <description>My first post</description>
     </item>
     <item>
       <title>Restful API and Go Learning</title>
-      <link>https://Cyberwizardlabs.com/posts/restful-api-and-learning-go/</link>
+      <link>http://localhost:1314/posts/restful-api-and-learning-go/</link>
       <pubDate>Fri, 18 Jul 2025 10:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/restful-api-and-learning-go/</guid>
+      <guid>http://localhost:1314/posts/restful-api-and-learning-go/</guid>
       <description>Restful API and Go Learning</description>
     </item>
     <item>
       <title>Git Pipeline Fun</title>
-      <link>https://Cyberwizardlabs.com/posts/gitlab-pipeline-fun/</link>
+      <link>http://localhost:1314/posts/gitlab-pipeline-fun/</link>
       <pubDate>Wed, 16 Jul 2025 10:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/gitlab-pipeline-fun/</guid>
+      <guid>http://localhost:1314/posts/gitlab-pipeline-fun/</guid>
       <description>Git Pipelines</description>
     </item>
     <item>
       <title>Silverbullet Push</title>
-      <link>https://Cyberwizardlabs.com/posts/githubpipelinesilverbullet/</link>
+      <link>http://localhost:1314/posts/githubpipelinesilverbullet/</link>
       <pubDate>Thu, 24 Apr 2025 16:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/githubpipelinesilverbullet/</guid>
+      <guid>http://localhost:1314/posts/githubpipelinesilverbullet/</guid>
       <description>Silverbullet and Pipelines</description>
     </item>
     <item>
       <title>Silverbullet and Git</title>
-      <link>https://Cyberwizardlabs.com/posts/silverbullet/</link>
+      <link>http://localhost:1314/posts/silverbullet/</link>
       <pubDate>Tue, 22 Apr 2025 20:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/silverbullet/</guid>
+      <guid>http://localhost:1314/posts/silverbullet/</guid>
       <description>Silverbullet and Git</description>
     </item>
     <item>
       <title>Scraping the Web</title>
-      <link>https://Cyberwizardlabs.com/posts/scrapingtheweb/</link>
+      <link>http://localhost:1314/posts/scrapingtheweb/</link>
       <pubDate>Tue, 22 Apr 2025 09:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/scrapingtheweb/</guid>
+      <guid>http://localhost:1314/posts/scrapingtheweb/</guid>
       <description>Web Scraper Build</description>
     </item>
     <item>
       <title>Member join on Discord</title>
-      <link>https://Cyberwizardlabs.com/posts/discordmemberjoin/</link>
+      <link>http://localhost:1314/posts/discordmemberjoin/</link>
       <pubDate>Sat, 19 Apr 2025 14:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/discordmemberjoin/</guid>
+      <guid>http://localhost:1314/posts/discordmemberjoin/</guid>
       <description>Discord bot when a member joins</description>
     </item>
     <item>
       <title>Adding to the Discord bot</title>
-      <link>https://Cyberwizardlabs.com/posts/discordbotadds/</link>
+      <link>http://localhost:1314/posts/discordbotadds/</link>
       <pubDate>Sat, 19 Apr 2025 10:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/discordbotadds/</guid>
+      <guid>http://localhost:1314/posts/discordbotadds/</guid>
       <description>Discord bot add</description>
     </item>
     <item>
       <title>Different Tome Provider Rehash featuring Tailscale</title>
-      <link>https://Cyberwizardlabs.com/posts/differenttomerehash/</link>
+      <link>http://localhost:1314/posts/differenttomerehash/</link>
       <pubDate>Fri, 18 Apr 2025 18:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/differenttomerehash/</guid>
+      <guid>http://localhost:1314/posts/differenttomerehash/</guid>
       <description>A rehash of the Silverbullet server</description>
     </item>
     <item>
       <title>Discord Bot</title>
-      <link>https://Cyberwizardlabs.com/posts/discordbot/</link>
+      <link>http://localhost:1314/posts/discordbot/</link>
       <pubDate>Fri, 18 Apr 2025 10:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/discordbot/</guid>
+      <guid>http://localhost:1314/posts/discordbot/</guid>
       <description>Building a Discord bot</description>
     </item>
     <item>
       <title>Different Tome Provider</title>
-      <link>https://Cyberwizardlabs.com/posts/differenttome/</link>
+      <link>http://localhost:1314/posts/differenttome/</link>
       <pubDate>Thu, 17 Apr 2025 11:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/differenttome/</guid>
+      <guid>http://localhost:1314/posts/differenttome/</guid>
       <description>Different tomes for different problems</description>
     </item>
     <item>
       <title>Tomes of a Wizard</title>
-      <link>https://Cyberwizardlabs.com/posts/wizardtomes/</link>
+      <link>http://localhost:1314/posts/wizardtomes/</link>
       <pubDate>Wed, 16 Apr 2025 20:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/wizardtomes/</guid>
+      <guid>http://localhost:1314/posts/wizardtomes/</guid>
       <description>Writing some magical tomes</description>
     </item>
     <item>
       <title>Pipeline Final</title>
-      <link>https://Cyberwizardlabs.com/posts/pipeline-final/</link>
+      <link>http://localhost:1314/posts/pipeline-final/</link>
       <pubDate>Wed, 16 Apr 2025 13:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/pipeline-final/</guid>
+      <guid>http://localhost:1314/posts/pipeline-final/</guid>
       <description>Pipeline Final</description>
     </item>
     <item>
       <title>Pipeline Part 4</title>
-      <link>https://Cyberwizardlabs.com/posts/pipeline-part4/</link>
+      <link>http://localhost:1314/posts/pipeline-part4/</link>
       <pubDate>Wed, 16 Apr 2025 13:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/pipeline-part4/</guid>
+      <guid>http://localhost:1314/posts/pipeline-part4/</guid>
       <description>Pipeline Part 4</description>
     </item>
     <item>
       <title>Tail of scale, eye of newt...</title>
-      <link>https://Cyberwizardlabs.com/posts/tailscale/</link>
+      <link>http://localhost:1314/posts/tailscale/</link>
       <pubDate>Wed, 16 Apr 2025 13:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/tailscale/</guid>
+      <guid>http://localhost:1314/posts/tailscale/</guid>
       <description>Scratching the surface of Tailscale and it&amp;#39;s mystical properties</description>
     </item>
     <item>
       <title>Pipeline Part 3</title>
-      <link>https://Cyberwizardlabs.com/posts/pipeline-part3/</link>
+      <link>http://localhost:1314/posts/pipeline-part3/</link>
       <pubDate>Wed, 16 Apr 2025 11:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/pipeline-part3/</guid>
+      <guid>http://localhost:1314/posts/pipeline-part3/</guid>
       <description>Pipeline Part 3</description>
     </item>
     <item>
       <title>Pipeline Part 2</title>
-      <link>https://Cyberwizardlabs.com/posts/pipeline-part2/</link>
+      <link>http://localhost:1314/posts/pipeline-part2/</link>
       <pubDate>Wed, 16 Apr 2025 11:15:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/pipeline-part2/</guid>
+      <guid>http://localhost:1314/posts/pipeline-part2/</guid>
       <description>Pipeline Part 2</description>
     </item>
     <item>
       <title>Pipeline Part 1</title>
-      <link>https://Cyberwizardlabs.com/posts/firstpost/</link>
+      <link>http://localhost:1314/posts/firstpost/</link>
       <pubDate>Wed, 16 Apr 2025 09:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/posts/firstpost/</guid>
+      <guid>http://localhost:1314/posts/firstpost/</guid>
       <description>Part 1 of my pipeline series</description>
     </item>
   </channel>

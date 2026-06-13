@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Cyber Wizard Labs</title>
-    <link>https://Cyberwizardlabs.com/projects/</link>
+    <link>http://localhost:1314/projects/</link>
     <description>Recent content in Projects on Cyber Wizard Labs</description>
     <image>
       <title>Cyber Wizard Labs</title>
@@ -12,33 +12,33 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Cyberwizardlabs.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RepoPull</title>
-      <link>https://Cyberwizardlabs.com/projects/repopull/</link>
+      <link>http://localhost:1314/projects/repopull/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/projects/repopull/</guid>
+      <guid>http://localhost:1314/projects/repopull/</guid>
       <description>Automated library scanning and dependency pull tool</description>
     </item>
     <item>
       <title>Discord Community Bot</title>
-      <link>https://Cyberwizardlabs.com/projects/discord-bot/</link>
+      <link>http://localhost:1314/projects/discord-bot/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/projects/discord-bot/</guid>
+      <guid>http://localhost:1314/projects/discord-bot/</guid>
       <description>A Discord bot for member management and community engagement</description>
     </item>
     <item>
       <title>Self-Hosted CI/CD Pipeline</title>
-      <link>https://Cyberwizardlabs.com/projects/ci-cd-pipeline/</link>
+      <link>http://localhost:1314/projects/ci-cd-pipeline/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/projects/ci-cd-pipeline/</guid>
+      <guid>http://localhost:1314/projects/ci-cd-pipeline/</guid>
       <description>End-to-end CI/CD with self-hosted GitHub Actions runners on Raspberry Pi</description>
     </item>
     <item>
       <title>Go REST API</title>
-      <link>https://Cyberwizardlabs.com/projects/go-rest-api/</link>
+      <link>http://localhost:1314/projects/go-rest-api/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/projects/go-rest-api/</guid>
+      <guid>http://localhost:1314/projects/go-rest-api/</guid>
       <description>Building a RESTful API in Go with proper project structure</description>
     </item>
   </channel>

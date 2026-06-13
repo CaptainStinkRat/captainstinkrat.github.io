@@ -2,126 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Cyberwizardlabs.com/posts/post/</loc>
+    <loc>http://localhost:1314/posts/post/</loc>
     <lastmod>2025-04-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/projects/repopull/</loc>
+    <loc>http://localhost:1314/projects/repopull/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/projects/discord-bot/</loc>
+    <loc>http://localhost:1314/projects/discord-bot/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/projects/ci-cd-pipeline/</loc>
+    <loc>http://localhost:1314/projects/ci-cd-pipeline/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/projects/go-rest-api/</loc>
+    <loc>http://localhost:1314/projects/go-rest-api/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/coding/</loc>
+    <loc>http://localhost:1314/tags/coding/</loc>
     <lastmod>2025-07-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/</loc>
+    <loc>http://localhost:1314/</loc>
     <lastmod>2025-07-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/</loc>
+    <loc>http://localhost:1314/posts/</loc>
     <lastmod>2025-07-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/restful-api-and-learning-go/</loc>
+    <loc>http://localhost:1314/posts/restful-api-and-learning-go/</loc>
     <lastmod>2025-07-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/</loc>
+    <loc>http://localhost:1314/tags/</loc>
     <lastmod>2025-07-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/gitlab-pipeline-fun/</loc>
+    <loc>http://localhost:1314/posts/gitlab-pipeline-fun/</loc>
     <lastmod>2025-07-16T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/api/</loc>
+    <loc>http://localhost:1314/tags/api/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/go/</loc>
+    <loc>http://localhost:1314/tags/go/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/projects/</loc>
+    <loc>http://localhost:1314/projects/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/rest/</loc>
+    <loc>http://localhost:1314/tags/rest/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/homelab/</loc>
+    <loc>http://localhost:1314/tags/homelab/</loc>
     <lastmod>2025-04-24T16:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/githubpipelinesilverbullet/</loc>
+    <loc>http://localhost:1314/posts/githubpipelinesilverbullet/</loc>
     <lastmod>2025-04-24T16:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/silverbullet/</loc>
+    <loc>http://localhost:1314/posts/silverbullet/</loc>
     <lastmod>2025-04-22T20:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/scrapingtheweb/</loc>
+    <loc>http://localhost:1314/posts/scrapingtheweb/</loc>
     <lastmod>2025-04-22T09:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/discordmemberjoin/</loc>
+    <loc>http://localhost:1314/posts/discordmemberjoin/</loc>
     <lastmod>2025-04-19T14:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/discordbotadds/</loc>
+    <loc>http://localhost:1314/posts/discordbotadds/</loc>
     <lastmod>2025-04-19T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/differenttomerehash/</loc>
+    <loc>http://localhost:1314/posts/differenttomerehash/</loc>
     <lastmod>2025-04-18T18:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/discordbot/</loc>
+    <loc>http://localhost:1314/posts/discordbot/</loc>
     <lastmod>2025-04-18T10:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/differenttome/</loc>
+    <loc>http://localhost:1314/posts/differenttome/</loc>
     <lastmod>2025-04-17T11:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/wizardtomes/</loc>
+    <loc>http://localhost:1314/posts/wizardtomes/</loc>
     <lastmod>2025-04-16T20:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/pipeline-final/</loc>
+    <loc>http://localhost:1314/posts/pipeline-final/</loc>
     <lastmod>2025-04-16T13:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/pipeline-part4/</loc>
+    <loc>http://localhost:1314/posts/pipeline-part4/</loc>
     <lastmod>2025-04-16T13:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/tailscale/</loc>
+    <loc>http://localhost:1314/posts/tailscale/</loc>
     <lastmod>2025-04-16T13:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/pipeline-part3/</loc>
+    <loc>http://localhost:1314/posts/pipeline-part3/</loc>
     <lastmod>2025-04-16T11:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/pipeline-part2/</loc>
+    <loc>http://localhost:1314/posts/pipeline-part2/</loc>
     <lastmod>2025-04-16T11:15:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/posts/firstpost/</loc>
+    <loc>http://localhost:1314/posts/firstpost/</loc>
     <lastmod>2025-04-16T09:45:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/ci/cd/</loc>
+    <loc>http://localhost:1314/tags/ci/cd/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/devops/</loc>
+    <loc>http://localhost:1314/tags/devops/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/github-actions/</loc>
+    <loc>http://localhost:1314/tags/github-actions/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/raspberry-pi/</loc>
+    <loc>http://localhost:1314/tags/raspberry-pi/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/intro/</loc>
+    <loc>http://localhost:1314/tags/intro/</loc>
     <lastmod>2025-04-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/bot/</loc>
+    <loc>http://localhost:1314/tags/bot/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/discord/</loc>
+    <loc>http://localhost:1314/tags/discord/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/python/</loc>
+    <loc>http://localhost:1314/tags/python/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/tags/security/</loc>
+    <loc>http://localhost:1314/tags/security/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyberwizardlabs.com/categories/</loc>
+    <loc>http://localhost:1314/categories/</loc>
   </url>
 </urlset>

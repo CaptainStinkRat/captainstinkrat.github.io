@@ -270,6 +270,23 @@ body {
   margin: 2em 0;
 }
 
+#contrib-heatmap img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contrib-img-loaded {
+  animation: heatFadeIn 0.8s ease-out;
+}
+
+@keyframes heatFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 #contrib-heatmap svg {
   border-radius: 6px;
 }
@@ -279,19 +296,44 @@ body {
   font-size: 10px;
 }
 
-.corner-img-wrapper {
+.profile-bubble {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 1000;
-  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 16px 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
-.corner-img {
-  width: 64px;
-  height: auto;
-  border-radius: 8px;
-  opacity: 0.85;
+.profile-bubble-img img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+  display: block;
+}
+
+.profile-bubble-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.profile-bubble-social a {
+  color: var(--secondary);
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.profile-bubble-social a:hover {
+  color: var(--primary);
 }
 
 @media (max-width: 680px) {

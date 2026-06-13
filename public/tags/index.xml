@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Cyber Wizard Labs</title>
-    <link>https://Cyberwizardlabs.com/tags/</link>
+    <link>http://localhost:1314/tags/</link>
     <description>Recent content in Tags on Cyber Wizard Labs</description>
     <image>
       <title>Cyber Wizard Labs</title>
@@ -12,103 +12,103 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Jul 2025 10:45:03 +0000</lastBuildDate>
-    <atom:link href="https://Cyberwizardlabs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding</title>
-      <link>https://Cyberwizardlabs.com/tags/coding/</link>
+      <link>http://localhost:1314/tags/coding/</link>
       <pubDate>Fri, 18 Jul 2025 10:45:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/coding/</guid>
+      <guid>http://localhost:1314/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>https://Cyberwizardlabs.com/tags/api/</link>
+      <link>http://localhost:1314/tags/api/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/api/</guid>
+      <guid>http://localhost:1314/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>https://Cyberwizardlabs.com/tags/go/</link>
+      <link>http://localhost:1314/tags/go/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/go/</guid>
+      <guid>http://localhost:1314/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>REST</title>
-      <link>https://Cyberwizardlabs.com/tags/rest/</link>
+      <link>http://localhost:1314/tags/rest/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/rest/</guid>
+      <guid>http://localhost:1314/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>HomeLab</title>
-      <link>https://Cyberwizardlabs.com/tags/homelab/</link>
+      <link>http://localhost:1314/tags/homelab/</link>
       <pubDate>Thu, 24 Apr 2025 16:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/homelab/</guid>
+      <guid>http://localhost:1314/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>https://Cyberwizardlabs.com/tags/ci/cd/</link>
+      <link>http://localhost:1314/tags/ci/cd/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/ci/cd/</guid>
+      <guid>http://localhost:1314/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>https://Cyberwizardlabs.com/tags/devops/</link>
+      <link>http://localhost:1314/tags/devops/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/devops/</guid>
+      <guid>http://localhost:1314/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub Actions</title>
-      <link>https://Cyberwizardlabs.com/tags/github-actions/</link>
+      <link>http://localhost:1314/tags/github-actions/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/github-actions/</guid>
+      <guid>http://localhost:1314/tags/github-actions/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry Pi</title>
-      <link>https://Cyberwizardlabs.com/tags/raspberry-pi/</link>
+      <link>http://localhost:1314/tags/raspberry-pi/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/raspberry-pi/</guid>
+      <guid>http://localhost:1314/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>https://Cyberwizardlabs.com/tags/intro/</link>
+      <link>http://localhost:1314/tags/intro/</link>
       <pubDate>Tue, 15 Apr 2025 11:30:03 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/intro/</guid>
+      <guid>http://localhost:1314/tags/intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Bot</title>
-      <link>https://Cyberwizardlabs.com/tags/bot/</link>
+      <link>http://localhost:1314/tags/bot/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/bot/</guid>
+      <guid>http://localhost:1314/tags/bot/</guid>
       <description></description>
     </item>
     <item>
       <title>Discord</title>
-      <link>https://Cyberwizardlabs.com/tags/discord/</link>
+      <link>http://localhost:1314/tags/discord/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/discord/</guid>
+      <guid>http://localhost:1314/tags/discord/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://Cyberwizardlabs.com/tags/python/</link>
+      <link>http://localhost:1314/tags/python/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/python/</guid>
+      <guid>http://localhost:1314/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://Cyberwizardlabs.com/tags/security/</link>
+      <link>http://localhost:1314/tags/security/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://Cyberwizardlabs.com/tags/security/</guid>
+      <guid>http://localhost:1314/tags/security/</guid>
       <description></description>
     </item>
   </channel>
