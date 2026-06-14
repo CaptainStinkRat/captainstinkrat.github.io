@@ -1,0 +1,378 @@
+.post-content pre {
+  padding: 1.2em 1.4em;
+  border-radius: 8px;
+  font-size: 0.85em;
+  line-height: 1.55;
+  background: #ede8f5;
+  border: 1px solid #ddd6fe;
+  margin: 1.5em 0;
+  overflow-x: auto;
+}
+
+.post-content code {
+  background: #e5def0;
+  color: #2d1b4e;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.dark .post-content pre {
+  background: #0d0d14;
+  border-color: #1f1f3a;
+}
+
+.dark .post-content code {
+  background: #1a1a28;
+  color: #e0e0f0;
+}
+
+.dark .post-content pre code {
+  background: none;
+}
+
+.chroma {
+  border-radius: 8px;
+  margin: 1.5em 0;
+  overflow-x: auto;
+}
+
+.post-content .highlight pre,
+.chroma pre {
+  padding: 1.2em 1.4em;
+  border-radius: 8px;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+.chroma code {
+  background: none !important;
+}
+
+.chroma .lnt {
+  color: #9ca3af;
+  padding: 0 1em 0 0.5em;
+}
+
+.chroma .ln {
+  color: #9ca3af;
+  padding: 0 0.5em;
+}
+
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background: rgba(99, 102, 241, 0.06);
+  border-left: 3px solid #6366f1;
+}
+
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt {
+  color: #e11d48;
+}
+
+.chroma .n,
+.chroma .nb,
+.chroma .bp,
+.chroma .nx {
+  color: #2d1b4e;
+}
+
+.chroma .na,
+.chroma .nt {
+  color: #7c3aed;
+}
+
+.chroma .nc,
+.chroma .nn {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.chroma .no,
+.chroma .nd,
+.chroma .ne,
+.chroma .ni,
+.chroma .nl,
+.chroma .py {
+  color: #6366f1;
+}
+
+.chroma .nf,
+.chroma .fm {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.chroma .nv,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi,
+.chroma .vm {
+  color: #2d1b4e;
+}
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .s1,
+.chroma .ss {
+  color: #059669;
+}
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo {
+  color: #d97706;
+}
+
+.chroma .o,
+.chroma .ow {
+  color: #7c3aed;
+}
+
+.chroma .p {
+  color: #7c3aed;
+}
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .cpf,
+.chroma .c1,
+.chroma .cs {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.chroma .cp {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.chroma .err {
+  color: #e11d48;
+  background: rgba(225, 29, 72, 0.1);
+}
+
+.chroma .gd {
+  color: #e11d48;
+}
+
+.chroma .ge {
+  font-style: italic;
+}
+
+.chroma .gr {
+  color: #e11d48;
+}
+
+.chroma .gh {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.chroma .gi {
+  color: #059669;
+}
+
+.chroma .go {
+  color: #9ca3af;
+}
+
+.chroma .gp {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.chroma .gs {
+  font-weight: 700;
+}
+
+.chroma .gu {
+  color: #6366f1;
+}
+
+.dark .chroma {
+  background: #0d0d14;
+  border: 1px solid #1f1f3a;
+}
+
+.dark .chroma .lnt,
+.dark .chroma .ln {
+  color: #4b5563;
+}
+
+.dark .chroma .hl {
+  background: rgba(0, 240, 255, 0.06);
+  border-left-color: #00f0ff;
+}
+
+.dark .chroma .k,
+.dark .chroma .kc,
+.dark .chroma .kd,
+.dark .chroma .kn,
+.dark .chroma .kp,
+.dark .chroma .kr,
+.dark .chroma .kt {
+  color: #ff6b9d;
+}
+
+.dark .chroma .n,
+.dark .chroma .nb,
+.dark .chroma .bp,
+.dark .chroma .nx {
+  color: #e0e0f0;
+}
+
+.dark .chroma .na,
+.dark .chroma .nt {
+  color: #c084fc;
+}
+
+.dark .chroma .nc,
+.dark .chroma .nn {
+  color: #00f0ff;
+  font-weight: 600;
+}
+
+.dark .chroma .no,
+.dark .chroma .nd,
+.dark .chroma .ne,
+.dark .chroma .ni,
+.dark .chroma .nl,
+.dark .chroma .py {
+  color: #00f0ff;
+}
+
+.dark .chroma .nf,
+.dark .chroma .fm {
+  color: #00f0ff;
+  font-weight: 600;
+}
+
+.dark .chroma .nv,
+.dark .chroma .vc,
+.dark .chroma .vg,
+.dark .chroma .vi,
+.dark .chroma .vm {
+  color: #e0e0f0;
+}
+
+.dark .chroma .s,
+.dark .chroma .sa,
+.dark .chroma .sb,
+.dark .chroma .sc,
+.dark .chroma .dl,
+.dark .chroma .sd,
+.dark .chroma .s2,
+.dark .chroma .se,
+.dark .chroma .sh,
+.dark .chroma .si,
+.dark .chroma .sx,
+.dark .chroma .sr,
+.dark .chroma .s1,
+.dark .chroma .ss {
+  color: #00ff9d;
+}
+
+.dark .chroma .m,
+.dark .chroma .mb,
+.dark .chroma .mf,
+.dark .chroma .mh,
+.dark .chroma .mi,
+.dark .chroma .il,
+.dark .chroma .mo {
+  color: #fbbf24;
+}
+
+.dark .chroma .o,
+.dark .chroma .ow {
+  color: #a78bfa;
+}
+
+.dark .chroma .p {
+  color: #a78bfa;
+}
+
+.dark .chroma .c,
+.dark .chroma .ch,
+.dark .chroma .cm,
+.dark .chroma .cpf,
+.dark .chroma .c1,
+.dark .chroma .cs {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.dark .chroma .cp {
+  color: #c084fc;
+  font-weight: 600;
+}
+
+.dark .chroma .err {
+  color: #ff6b9d;
+  background: rgba(255, 107, 157, 0.12);
+}
+
+.dark .chroma .gd {
+  color: #ff6b9d;
+}
+
+.dark .chroma .ge {
+  font-style: italic;
+}
+
+.dark .chroma .gr {
+  color: #ff6b9d;
+}
+
+.dark .chroma .gh {
+  color: #00f0ff;
+  font-weight: 600;
+}
+
+.dark .chroma .gi {
+  color: #00ff9d;
+}
+
+.dark .chroma .go {
+  color: #6b7280;
+}
+
+.dark .chroma .gp {
+  color: #a78bfa;
+  font-weight: 600;
+}
+
+.dark .chroma .gs {
+  font-weight: 700;
+}
+
+.dark .chroma .gu {
+  color: #00f0ff;
+}
